@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica 1</title>
+        <meta charset="utf-8">
+    </head>
+    <Style>
+      table {
+        text-align: center;
+      }
+    </Style>
+    <body>
+        <h1>Ins Sa Palomera-1r DAW</h1>
+        <h2>Moduls del cicle</h2>
+        <h3>Web d'institut:https://www.sapalomera.cat</h3>
+        <ul>
+            <li>Sistemes</li>
+            <li>Entorns</li>
+            <li>Llenguatge de marques</li>
+            <li>Programacio</li>
+            <li>Gestio BD</li>
+            <li>FOL</li>
+            <li>EIE</li>
+        </ul>
+<H1><FONT COLOR="BLACK"><Left>Horari</FONT></H1>
+<table border>
+<tr>
+<td>Hora</td>
+<td>Dilluns</td>
+<td>Dimarts</td>
+<td>Dimecres</td>
+<td>Dijous</td>
+<td>Divendres</td>
+</tr>
+<tr>
+  <td>8:30<br>9:30</td>
+  <td colspan="3" ></td> 
+  <td rowspan="2" class="sistemes">Sistemes</td>
+  </tr>
+  <tr>
+    <td>9:30 <br> 10:30</td>
+    <td rowspan="2" class="Entorns">Entorns</td>
+    <td rowspan="2" class="Programació">Programació</td>
+    <td rowspan="2" class="Programació">Programació</td>
+    <td rowspan="2" class="Sistemes">Sistemes</td>
+    </tr>
+    <tr>
+      <td>10:30 <br> 11:30</td>
+      <td class="tutoria">Tutoria</td>
+      </tr>
+      <tr>
+        <td  rowspan="2">11:30 <br> 12:30</td>
+        <td rowspan="2" class="LL marques">LL de marques</td>
+        <td>Pati</td>
+        <td rowspan="2" class="Gestió BD">Gestió BD</td>
+        <td>Pati</td>
+        <td rowspan="2" class="LLmarques">LL de Marques</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="programació">Programació</td>
+          <td rowspan="2" class="Gestió BD">Gestió BD</td>
+        </tr>
+        <tr>
+          <td>12:30 13:00</td>
+          <td>Pati</td>
+          <td>Pati</td>
+          <td>Pati</td>
+          </tr>
+      <tr>
+    <td>13:00 <br> 14:00</td>
+    <td  class="LL marques">LL de marques</td>
+    <td  class="Gestió BD">Gestió BD</td>
+    <td class="Gestió BD">Gestió BD</td>
+    <td  class="Gestió BD">Gestió BD</td>
+    <td  class="programació">Programació</td>
+    </tr>
+    <tr>
+    <td>14:00 <br> 15:00</td>
+    <td rowspan="2" class="FOL">FOL</td>
+    <td rowspan="2"></td>
+    <td rowspan="2" class="EIE">EIE</td>
+    </tr>
+    <tr>
+      <td>15:00 <br> 16:00</td>
+      <td rowspan="2"></td>
+      </tr>   
+    
+</table>
+   <form action="ejemplo.php" method="get">
+    <p>Nom i cognoms: <input type="text" name="nombre" size="30"></p>
+    <p>NIF: <input type="text" name="nombre" size="30"></p>
+    <p>Fotografia: <input type="file" name="photo" accept="image/.jpg,.png"></p>
+    <p>Data de naixament: <input type="text" name="nacido" size="30"></p>
+    <p>Sexe:
+      <input type="radio" name="hm" value="h"> Home
+      <input type="radio" name="hm" value="m"> Dona
+    </p>
+ <p>Telefon: <input type="text" name="numero" size="30"></p>
+ <p>Email: <input type="text" name="nombre" size="30"></p>
+    <p>Quins llenguatges domines:
+      <input type="checkbox" name="hm" value="h"> JavaScript
+      <input type="checkbox" name="hm" value="m"> Python
+      <input type="checkbox" name="hm" value="m"> Java
+      <input type="checkbox" name="hm" value="m"> C# 
+      <input type="checkbox" name="hm" value="m"> PHP 
+      <input type="checkbox" name="hm" value="m"> C++
+    </p>
+    
+  </form>
+  <table border="2" cellspacing="3" align="center">
+    <tr>
+     <td align="center">
+     <td>Dilluns
+     <td>Dimarts
+     <td>Dimecres
+     <td>Dijous
+     <td>Divendres
+    </tr>
+ <tr>
+   <td>
+     8:30 <br> 9:30
+   </td>
+    <td>
+  <select name= "temes">
+    <option>Programació</option>  
+    <option>Entorns</option>
+    <option>LL de marques</option>
+    <option>Gestio BD</option>
+    <option>Sistemes</option>
+      </select>
+    </td>
+    <td>
+  <select name= "temes">
+    <option>Programació</option>  
+    <option>Entorns</option>
+    <option>LL de marques</option>
+    <option>Gestio BD</option>
+    <option>Sistemes</option>
+      </select>
+    </td>
+    <td>
+      <select name= "temes">
+        <option>Programació</option>  
+        <option>Entorns</option>
+        <option>LL de marques</option>
+        <option>Gestio BD</option>
+        <option>Sistemes</option>
+          </select>
+        </td>
+        <td>
+          <select name= "temes">
+            <option>Programació</option>  
+            <option>Entorns</option>
+            <option>LL de marques</option>
+            <option>Gestio BD</option>
+            <option>Sistemes</option>
+              </select>
+            </td>
+            <td>
+              <select name= "temes">
+                <option>Programació</option>  
+                <option>Entorns</option>
+                <option>LL de marques</option>
+                <option>Gestio BD</option>
+                <option>Sistemes</option>
+                  </select>
+                </td>
+</tr>
+<tr>
+  <td>
+    9:30 <br> 10:30
+  </td>
+  <td>
+    <select name= "temes">
+      <option>Programació</option>  
+      <option>Entorns</option>
+      <option>LL de marques</option>
+      <option>Gestio BD</option>
+      <option>Sistemes</option>
+        </select>
+      </td>
+<td>
+  <select name= "temes">
+    <option>Programació</option>  
+    <option>Entorns</option>
+    <option>LL de marques</option>
+    <option>Gestio BD</option>
+    <option>Sistemes</option>
+      </select>
+    </td>
+    <td>
+      <select name= "temes">
+        <option>Programació</option>  
+        <option>Entorns</option>
+        <option>LL de marques</option>
+        <option>Gestio BD</option>
+        <option>Sistemes</option>
+          </select>
+        </td>
+        <td>
+          <select name= "temes">
+            <option>Programació</option>  
+            <option>Entorns</option>
+            <option>LL de marques</option>
+            <option>Gestio BD</option>
+            <option>Sistemes</option>
+              </select>
+            </td>
+            <td>
+              <select name= "temes">
+                <option>Programació</option>  
+                <option>Entorns</option>
+                <option>LL de marques</option>
+                <option>Gestio BD</option>
+                <option>Sistemes</option>
+                  </select>
+                </td>
+</tr>
+<tr>
+  <td>
+    10:30 <br> 11:30
+  </td>
+  <td>
+    <select name= "temes">
+      <option>Programació</option>  
+      <option>Entorns</option>
+      <option>LL de marques</option>
+      <option>Gestio BD</option>
+      <option>Sistemes</option>
+        </select>
+      </td>
+<td>
+  <select name= "temes">
+    <option>Programació</option>  
+    <option>Entorns</option>
+    <option>LL de marques</option>
+    <option>Gestio BD</option>
+    <option>Sistemes</option>
+      </select>
+    </td>
+    <td>
+      <select name= "temes">
+        <option>Programació</option>  
+        <option>Entorns</option>
+        <option>LL de marques</option>
+        <option>Gestio BD</option>
+        <option>Sistemes</option>
+          </select>
+        </td>
+        <td>
+          <select name= "temes">
+            <option>Programació</option>  
+            <option>Entorns</option>
+            <option>LL de marques</option>
+            <option>Gestio BD</option>
+            <option>Sistemes</option>
+              </select>
+            </td>
+            <td>
+              <select name= "temes">
+                <option>Programació</option>  
+                <option>Entorns</option>
+                <option>LL de marques</option>
+                <option>Gestio BD</option>
+                <option>Sistemes</option>
+                  </select>
+                </td>
+</tr>
+<tr>
+  <td>
+    11:30 <br> 12:30
+  </td>
+  <td>
+    <select name= "temes">
+      <option>Programació</option>  
+      <option>Entorns</option>
+      <option>LL de marques</option>
+      <option>Gestio BD</option>
+      <option>Sistemes</option>
+        </select>
+      </td>
+<td>
+  <select name= "temes">
+    <option>Programació</option>  
+    <option>Entorns</option>
+    <option>LL de marques</option>
+    <option>Gestio BD</option>
+    <option>Sistemes</option>
+      </select>
+    </td>
+    <td>
+      <select name= "temes">
+        <option>Programació</option>  
+        <option>Entorns</option>
+        <option>LL de marques</option>
+        <option>Gestio BD</option>
+        <option>Sistemes</option>
+          </select>
+        </td>
+        <td>
+          <select name= "temes">
+            <option>Programació</option>  
+            <option>Entorns</option>
+            <option>LL de marques</option>
+            <option>Gestio BD</option>
+            <option>Sistemes</option>
+              </select>
+            </td>
+            <td>
+              <select name= "temes">
+                <option>Programació</option>  
+                <option>Entorns</option>
+                <option>LL de marques</option>
+                <option>Gestio BD</option>
+                <option>Sistemes</option>
+                  </select>
+                </td>
+</tr>
+
+</table>
+<p>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Borrar">
+</p>
+
+        
+    
+
+
